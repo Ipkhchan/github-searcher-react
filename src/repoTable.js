@@ -1,11 +1,5 @@
 import React from 'react';
 
-
-// const resultsDisplay = {
-//   margin: '40px',
-//   border: '5px solid pink'
-// };
-
 const RepoTable = (props) => {
   return (
     <table>

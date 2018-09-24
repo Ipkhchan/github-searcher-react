@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import RepoTable from './repoTable';
 import axios from 'axios';
-require('dotenv').config();
 
 class App extends Component {
   constructor(props) {

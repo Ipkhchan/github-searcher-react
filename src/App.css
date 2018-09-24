@@ -1,7 +1,4 @@
-/* * {
-  border: 1px solid black;
-} */
-
+/* FONTS AND VARIABLES */
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -23,6 +20,8 @@ body {
   justify-content: space-between;
 }
 
+
+/* BASE ELEMENT STYLES */
 h1 {
   text-align: center;
   color: white;
@@ -41,12 +40,14 @@ th {
   padding-bottom: 15px;
 }
 
-.emptyHeader {
-  width: 10%;
-}
 
 td {
   padding: 8px 0;
+}
+
+/* CUSTOM CLASS STYLES */
+.emptyHeader {
+  width: 10%;
 }
 
 .searchContainer, .favoritesContainer {
@@ -88,6 +89,7 @@ td {
   color: var(--accent-color);
 }
 
+/* MEDIA QUERIES */
 @media screen and (max-width: 850px) {
   .lastTag {
     display: none;
